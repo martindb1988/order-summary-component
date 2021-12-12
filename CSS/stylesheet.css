@@ -14,6 +14,8 @@
     /* Typography */
     *{
     font-family: 'Red Hat Display', sans-serif;
+    padding:0;
+    margin:0;
     }
 
     /* Layout */
@@ -23,6 +25,11 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+    }
+
+    .main{
+        width: 450px;
+        height: 697px
     }
     
     .attribution { 
