@@ -22,16 +22,18 @@
     .container{
         display:flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
     }
 
-    .main{
-        width: 450px;
-        height: 697px
+    main{
+        width:30vw;
+        height:70vh;
+        margin: auto;
+        border: 1px dotted red;
     }
-    
+
     .attribution { 
         font-size: 11px; 
         text-align: center; 
