@@ -31,7 +31,7 @@ body{
     height: 100vh;
 }
 
-.container div{
+.container .hero{
     border-radius:25px;
     color:white;
     width: 25em;
@@ -43,6 +43,10 @@ body{
     border-radius: 25px 25px 0 0;
     width: 25em;
     }
+
+.container .header{
+    color: black;
+}
 
 .attribution { 
     font-size: 11px; 
