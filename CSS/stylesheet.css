@@ -28,27 +28,10 @@
     }
 
     main{
-        width:30vw;
-        height:70vh;
-        margin: auto;
-        border: 1px dotted red;
-    }
-
-    img{
-        width:30vw;
-        height: auto;
-        border-radius:10px 10px 0 0;
-    }
-
-    header{
-        font-size:28px;
-        font-weight: 900;;
-        text-align: center;
-    }
-
-    .paragraph{
-        font-size:16px;
-        text-align:center;
+        background-color:grey;
+        margin:auto;
+        width: 25em;
+        height: 35em;
     }
 
     .attribution { 
