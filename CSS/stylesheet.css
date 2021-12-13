@@ -60,6 +60,12 @@ body{
     color: #717FA6;
 }
 
+.container .plan{
+    background-color:grey;
+    width: 20em;
+    height: 4em;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
