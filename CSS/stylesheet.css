@@ -61,9 +61,17 @@ body{
 }
 
 .container .plan{
-    background-color:grey;
+    background-color:#F7F9FF;
     width: 20em;
-    height: 4em;
+    height: 6em;
+    margin: 1em auto auto auto;
+    border-radius:20px;
+}
+
+.plan img{
+    width: 3.5em;
+    height:auto;
+    margin: 1em 0 0 1em;
 }
 
 .attribution { 
