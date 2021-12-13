@@ -21,12 +21,15 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    background-color:black;
 }
 
 .container div{
     background-color:grey;
+    color:white;
     width: 25em;
-    height: 25em;
+    height: 30em;
     }
 
 .attribution { 
