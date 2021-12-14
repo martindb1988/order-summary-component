@@ -15,7 +15,6 @@ body{
     background-repeat: repeat-x;
     min-height:100vh;
     background-color: #e0e8ff;
-    z-index:0;
 }
 
 .container{
@@ -74,7 +73,6 @@ body{
 .annual{
     color:#1F2E55;
     font-weight: 900;
-    margin: 0 0 2em 1em;
 }
 
 .price{
@@ -85,6 +83,7 @@ body{
     font-size: 11px; 
     text-align: center; 
     }
+
 .attribution a { 
     color: hsl(228, 45%, 44%); 
     }
