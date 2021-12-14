@@ -1,16 +1,6 @@
     /* Typography import */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
-:root{
-    /* Primary colors */
-    --PaleBlue: hsl(225, 100%, 94%);
-    --BrightBlue: hsl(245, 75%, 52%);
-    /* Neutral colors */
-    --VeryPaleBlue: hsl(225, 100%, 98%);
-    --DesaturatedBlue: hsl(224, 23%, 55%);
-    --DarkBlue: hsl(223, 47%, 23%);
-    }
-
     /* Typography */
 *{
     font-family: 'Red Hat Display', sans-serif;
@@ -20,16 +10,21 @@
 
     /* Layout */
 
+body{
+    background-image:url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-color: #F2F2F2;
+}
 
 .container{
     display:flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image:url(/images/pattern-background-desktop.svg);
 }
 
-.container .hero{
+.hero{
     border-radius:25px;
     color:white;
     width: 25em;
@@ -42,7 +37,7 @@
     width: 25em;
     }
 
-.container .header{
+.header{
     font-size:1.5em;
     font-weight: 900;
     color: #1F2E55;
@@ -50,7 +45,7 @@
     text-align: center;
 }
 
-.container .description{
+.description{
     font-size: 1em;
     font-weight: 500;
     text-align:center;
@@ -58,18 +53,21 @@
     color: #717FA6;
 }
 
-.container .plan{
+.plan{
+    display:flex;
+    align-items:center;
+    justify-content: left;
     background-color:#F7F9FF;
     width: 20em;
     height: 6em;
-    margin: 1em auto auto auto;
+    margin: auto;
     border-radius:20px;
 }
 
 .plan img{
-    width: 3.5em;
-    height:auto;
-    margin: 1em 0 0 1em;
+    width: 5em;
+    height:5em;
+    margin-left:1em;
 }
 
 .attribution { 
