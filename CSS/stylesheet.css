@@ -58,9 +58,8 @@ body{
     align-items:center;
     justify-content: left;
     background-color:#F7F9FF;
-    width: 20em;
     height: 6em;
-    margin: auto;
+    margin: 0.5em;
     border-radius:20px;
 }
 
@@ -70,13 +69,18 @@ body{
     margin-left:1em;
 }
 
+.collection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .annual{
-    color:#1F2E55;
-    font-weight: 900;
+    color:black;
 }
 
 .price{
-    color:#717FA6;
+    color:black;
 }
 
 .attribution { 
